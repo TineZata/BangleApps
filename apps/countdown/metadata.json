@@ -1,5 +1,5 @@
 { "id": "countdown",
-  "name": "Simple Count down timer",
+  "name": "Touch-screen count-down timer",
   "shortName":"CountDown",
   "icon": "countDown.png",
   "version":"0.01",
