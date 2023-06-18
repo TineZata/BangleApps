@@ -1,7 +1,7 @@
 { "id": "countdown",
   "name": "Touch-screen count-down timer",
   "shortName":"CountDown",
-  "icon": "countDown.png",
+  "icon": "countdown-icon.png",
   "version":"0.01",
   "description": "Simple count down timer using touch screen buttons",
   "tags": "timer,tool",
