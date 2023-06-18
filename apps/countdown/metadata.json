@@ -7,6 +7,6 @@
   "tags": "",
   "storage": [
     {"name":"countdown.app.js","url":"app.js"},
-    {"name":"countDown.img","url":"app-icon.js","evaluate":true}
+    {"name":"selectMinutes.png","url":"app-icon.js","evaluate":true}
   ]
 }
