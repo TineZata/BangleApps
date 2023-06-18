@@ -1,0 +1,12 @@
+{ "id": "countdown",
+  "name": "Count down timer",
+  "shortName":"Count Down",
+  "icon": "countDown.png",
+  "version":"0.01",
+  "description": "This is no",
+  "tags": "",
+  "storage": [
+    {"name":"countdown.app.js","url":"app.js"},
+    {"name":"countDown.img","url":"app-icon.js","evaluate":true}
+  ]
+}
