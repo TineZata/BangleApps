@@ -137,7 +137,7 @@ function decrementTime() {
 function drawScreen(message, clearScreen) {
   if (clearScreen) g.clear();
   g.setFontAlign(0, 0);
-  g.setFont('Vector', 15); // Set font to a smaller size
+  g.setFont('Vector', 20); // Set font to a smaller size
   g.drawString(message, g.getWidth() / 2, (g.getHeight() / 2)-20);
   g.flip();
 }
@@ -153,7 +153,7 @@ function CountdownAnimation(l) {
   g.clearRect(l.x, l.y, l.x + l.w - 1, l.y + l.h - 1);
 
   // Draw the clock face
-  g.setColor("#ffffff");
+  g.setColor("#000000");
   g.fillCircle(centerX, centerY, radius);
   g.setColor("#000000");
   g.drawCircle(centerX, centerY, radius);
@@ -166,7 +166,7 @@ function CountdownAnimation(l) {
   for (let r = 0; r < angle; r += 0.01) {
     const x = centerX + Math.sin(r) * radius;
     const y = centerY - Math.cos(r) * radius;
-    g.drawCircle(x, y, 1);
+    g.drawCircle(x, y, 2.5);
   }
   
   // Now draw the formated time in the middle of our circle
