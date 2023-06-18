@@ -10,11 +10,11 @@ function startCountdown(setTime) {
   totalMinutes = setTime;
   remainingSeconds = totalMinutes * 60;
   if (countdownIntervalId !== null) {
-    console.log('Countdown is already running');
+    //console.log('Countdown is already running');
     return;
   }
   
-  console.log('Countdown started');
+  //console.log('Countdown started');
   countdownIntervalId = setInterval(decrementTime, 1000);
   Bangle.buzz();
 }
@@ -67,7 +67,7 @@ function continueCountDown(){
 
 function stopCountdown() {
   if (countdownIntervalId === null) {
-    console.log('Countdown is not running');
+    //console.log('Countdown is not running');
     continueCountDown();
     Bangle.buzz();
     return;
@@ -75,7 +75,7 @@ function stopCountdown() {
 
   clearInterval(countdownIntervalId);
   countdownIntervalId = null;
-  console.log('Countdown stopped');
+  //console.log('Countdown stopped');
   Bangle.buzz();
   g.clear();
   rootLayout = new Layout({
