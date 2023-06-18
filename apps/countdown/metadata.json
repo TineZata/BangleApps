@@ -8,6 +8,7 @@
   "supports": ["BANGLEJS2"],
   "allow_emulator": true,
   "storage": [
-    {"name":"countdown.app.js","url":"countdown.js"}
+    {"name":"countdown.app.js","url":"countdown.js"},
+    {"name":"countdown.img","url":"countdown-icon.js","evaluate":true}
   ]
 }
